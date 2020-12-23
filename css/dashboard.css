@@ -1,0 +1,37 @@
+.dashboard {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+.dashboard-sidebar {
+    background-color: #F6F6F6;
+}
+
+.avatar-img {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.avatar-img img {
+    width: 100%;
+}
+.dashboard .user-name {
+    font-size: 18px;
+    line-height: 24px;
+    color: #39393B;
+}
+.dashboard .user-company-name {
+    font-size: 16px;
+    line-height: 21px;
+    color: #39393B;
+}
+.deliver {
+    border-bottom: 1px solid #D8D8D8;
+    margin: 20px 0;
+}
+.dashboard-header {
+    height: 60px;
+    padding:16px 40px;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 30px;
+}

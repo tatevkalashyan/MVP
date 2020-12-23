@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.w-46 {
+    width: 460px;
+}
+.w-54 {
+    width: 540px;
+}
+a:hover,
+a:focus {
+    color: inherit;
+}
+.bg-dark-gray {
+    background-color: #A3A7AB;
+}
+.logo {
+    font: normal normal normal 60px/60px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.logo:hover,.logo:focus {
+    color: #FFFFFF;
+}
+.abs {
+    position: absolute;
+    max-width: 1000px;
+    width: 100%;
+    height: calc(100vh - 117px);
+    left: 80px;
+    right: 0;
+    border-radius: 14px;
+    box-shadow: 0 0 60px #00000057;
+    overflow: hidden;
+}
+.small-section .abs {
+    height: 600px;
+}
+.h3 {
+    font: 500 24px/26px "Roboto";
+    letter-spacing: 0;
+    color: #39393B;
+    margin-bottom: 20px;
+}
+.mvp-form  .label{
+    font: 500 16px/19px "Roboto";
+    letter-spacing: 0;
+    color: #39393B;
+    margin-bottom: 6px;
+}
+.mvp-form  .form-control{
+    font: 400 16px/19px "Roboto";
+    color: #D8D8D8;
+    border: 1px solid #D8D8D8;
+    height: 46px;
+}
+.fs-14 {
+    font: 14px/17px "Roboto";
+    color: #39393B;
+}
+.fs-14 a {
+    font: 500 14px/17px "Roboto";
+    color: #39393B;
+}
+.forgot-pass-link {
+    font: normal normal normal 14px/17px "Roboto";
+    color: #A3A7AB;
+}
+.btn-black {
+    width: 100%;
+    font: 500 16px/19px "Roboto";
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding: 15px;
+    background-color: #39393B;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+}
+.btn-black:hover {
+    color: #39393B;
+    background-color: #ffffff;
+    border: 1px solid #39393B;
+}
+.btn-black-bordered {
+    width: 100%;
+    font: 500 16px/19px "Roboto";
+    text-transform: capitalize;
+    padding: 15px;
+    color: #39393B;
+    background-color: #ffffff;
+    border: 1px solid #39393B;
+    transition: all 0.5s;
+}
+.btn-black-bordered:hover {
+    color: #FFFFFF;
+    background-color: #39393B;
+    border: 1px solid transparent;
+}
